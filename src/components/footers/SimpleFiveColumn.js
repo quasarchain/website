@@ -49,13 +49,13 @@ export default () => {
           QUASAR Chain is A Powerful DeFi Friendly Blockchain for Next Generation.
           </CompanyDescription>
           <SocialLinksContainer>
-            <SocialLink href="#" target="_blank">
+            <SocialLink href="https://twitter.com/quasar_chain" target="_blank">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="#" target="_blank">
+            <SocialLink href="https://t.me/quasarchain" target="_blank">
               <TelegramIcon />
             </SocialLink>
-            <SocialLink href="#" target="_blank">
+            <SocialLink href="https://github.com/quasarchain" target="_blank">
               <GithubIcon />
             </SocialLink>
             <SocialLink href="#" target="_blank">

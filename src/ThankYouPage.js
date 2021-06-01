@@ -30,9 +30,9 @@ export default () => {
    * Remove this part and the the gtag script inside public/index.html if you dont need google analytics
    */
   window.gtag("js", new Date());
-  window.gtag("config", "UA-45799926-9");
+  window.gtag("config", "");
 
-  const downloadUrl = "/treact-ui.zip"
+  const downloadUrl = "/"
   React.useEffect(() => {
     var iframe = document.createElement("iframe");
     iframe.style.display = "none";
@@ -50,16 +50,16 @@ export default () => {
               Treact
             </LogoLink>
             <div tw="flex flex-col lg:flex-row items-center">
-              <NavLink target="_blank" href="https://owaiskhan.me/post/free-tailwindcss-react-ui-kit">
+              <NavLink target="_blank" href="">
                 License & Usage
               </NavLink>
-              <NavLink target="_blank" href="https://twitter.com/owaiswiz">
+              <NavLink target="_blank" href="">
                 Twitter
               </NavLink>
-              <NavLink target="_blank" href="https://owaiskhan.me">
+              <NavLink target="_blank" href="">
                 Who Am I ?
               </NavLink>
-              <PrimaryNavLink target="_blank" href="https://gum.co/QaruQ">
+              <PrimaryNavLink target="_blank" href="">
                 Download Now
               </PrimaryNavLink>
             </div>
@@ -76,21 +76,21 @@ export default () => {
               Twitter/GitHub.
               <div tw="mt-12 flex flex-col items-center">
                 <a
-                  href="https://twitter.com/owaiswiz?ref_src=twsrc%5Etfw"
+                  href="%"
                   className="twitter-follow-button"
                   data-size="large"
                   data-show-count="true"
                 >
-                  Follow @TwitterDev
+                  Follow
                 </a>
                 <div tw="mt-8">
                   <GitHubButton
-                    href="https://github.com/owaiswiz"
+                    href=""
                     data-size="large"
                     data-show-count="true"
-                    aria-label="Follow @owaiswiz on GitHub"
+                    aria-label="Follow on GitHub"
                   >
-                    Follow @owaiswiz
+                    Follow
                   </GitHubButton>
                 </div>
               </div>
