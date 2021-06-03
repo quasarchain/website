@@ -1,0 +1,14 @@
+[Unit]
+Description=Ethereum go client
+After=network.target
+[Service]
+Type=simple
+ExecStart=/usr/bin/geth --syncmode fast --config /root/config.toml --datadir /root/node --pprofaddr 0.0.0.0 --metrics --pprof --cache 4048 --rpc --rpcaddr "127.0.0.1" --rpccorsdomain "*" --rpcport "8545" --rpcapi "eth, net, web3, personal"  --networkid 27 --nat extip:149.28.84.32 --unlock 0xDBf910eaa11675eD20f233Bc833B730DCFF61219 --password /root/pass.txt --mine --etherbase 0xDBf910eaa11675eD20f233Bc833B730DCFF61219
+KillMode=process
+KillSignal=SIGINT
+TimeoutStopSec=90
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target

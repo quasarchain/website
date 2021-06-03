@@ -103,7 +103,7 @@ import { HashRouter, Route, Switch, Router  } from 'react-router-dom'
 
 import ComponentRenderer from "ComponentRenderer.js";
 import Home from "Home.js";
-import ThankYouPage from "ThankYouPage.js";
+import Node from "Vaildator.js";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -119,8 +119,8 @@ export default function App() {
         <Route path="/components/:type/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/thank-you">
-          <ThankYouPage />
+        <Route path="/node">
+          <Node />
         </Route>
         <Route path="/">
           <Home />

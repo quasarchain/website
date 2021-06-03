@@ -190,6 +190,9 @@ module.exports = {
       'right-top': 'right top',
       top: 'top',
     },
+    a: {
+      color: '#9659ff',
+    },
     backgroundSize: {
       auto: 'auto',
       cover: 'cover',
