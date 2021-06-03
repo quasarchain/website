@@ -71,7 +71,7 @@ export default ({
     },
     {
       key: "TPS",
-      value: "750+"
+      value: "1100+"
     }
   ];
 
